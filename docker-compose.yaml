@@ -2,8 +2,8 @@ version: "3"
 
 services:
   api-ip:
-    image: skrambl/http-rest-api-ip:latest
-    container_name: "api-ip"
+    image: skrambl/node-ts-starter:latest
+    container_name: "node-ts-starter"
     restart: always
     ports:
       - "3000:3000"
