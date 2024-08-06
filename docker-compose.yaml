@@ -1,9 +1,7 @@
-version: "3"
-
 services:
-  api-ip:
-    image: skrambl/node-ts-starter:latest
-    container_name: "node-ts-starter"
+  coinbase-transfer:
+    image: skrambl/coinbase-transfer:latest
+    container_name: "coinbase-transfer"
     restart: always
     ports:
       - "3000:3000"
